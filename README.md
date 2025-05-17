@@ -42,4 +42,38 @@ Lexora is a modern, responsive SaaS web application built with **Next.js 14**, d
 ```bash
 git clone https://github.com/your-username/lexora.git
 cd lexora
+```
 
+2. **Install dependencies**
+```bash
+npm install
+```
+
+3. **Set environment variables**
+Create a .env.local file and add the following (example):
+```ini
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_key
+CLERK_SECRET_KEY=your_clerk_secret
+RAZORPAY_KEY_ID=your_razorpay_key
+RAZORPAY_KEY_SECRET=your_razorpay_secret
+```
+
+4. **Run the development server**
+```bash
+npm run dev
+```
+
+---
+
+## 🌐 Live Demo
+Coming Soon…
+
+---
+
+✨ Author
+Tarun Rawat
+tarunrawat687@gmail.com
+
+---
+
+Thanks to Ankita Kulkarni
